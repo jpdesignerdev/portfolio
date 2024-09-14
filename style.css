@@ -527,8 +527,12 @@ li {
 
     .landing-header {
         padding-top: 0px;
+        padding-bottom: 0px;
     }
 
+    .project {
+        margin-bottom: 0px;
+    }
 
     .company-card {
         min-width: unset;
