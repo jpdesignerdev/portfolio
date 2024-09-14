@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+    <title>Lincus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <a href='index.html'><h3 style="margin:0">Jared Poulsen 👾</h3></a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <i id="menu-icon" class="fa-solid fa-bars fa-lg"></i>
+            </div>
+            <ul class="nav-links">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="passion-projects.html">
+                    <li>Passion Projects</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main>
+        <header>
+            <div class=container1000>
+            <h1 class="margin0">About</h1>
+            
+            
+            
+
+        </header>
+
+
+
+        
+        
+        <div class="flexrow">
+            <div class="">
+                <img src="images/IMG_5327 (2).jpeg">
+            </div>
+            <div class="flexrowChild">
+                <h2 style="margin:0px;">About Jared</h2>
+                <p style="">Jared Poulsen is a designer and developer specializing in product design, web development, and branding. He received a BFA in Graphic Design from the University of Connecticut and is currently working as a UX/UI Designer at Major League Baseball.</p>       <h2>Areas of Expertise</h2>
+                <div>
+                    <p style="margin-bottom: 0px;">User Experience Design, Full Stack Web Development, Brand Identity Design, Publication Design, Motion Design, Photography, Video Editing</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="flexrow-plain" style="width: 100%; overflow-x: auto; white-space: nowrap;">
+            <div class="company-card">
+                <div class=company-img-container><img style="width:50%" src="images/mlb-logo-0.png"></div>
+                <strong>MLB</strong>
+                <span>UX/UI Designer</span><span style=color:#666666;>2024 - Present</span>
+            </div>
+            <div class="company-card">
+                <div class=company-img-container><img style="width:50%" src="images/Frame 1.png"></div>
+                <strong>Poulsen Design</strong>
+                <span>Freelance</span><span style=color:#666666;>2018 - Present</span>
+            </div>
+            <div class="company-card">
+                <div class=company-img-container><img style="width:50%" src="images/2947.png"></div>
+                <strong>KeyBank</strong>
+                <span>Product Designer</span><span style=color:#666666;>2022-2023</span>
+            </div>
+            <div class="company-card">
+                <div class=company-img-container><img style="width:50%;mix-blend-mode: multiply;"
+                        src="images/Image_Editor.png"></div>
+                <strong>Squared Labs</strong>
+                <span>UX/UI Designer</span><span style=color:#666666;>2021-2022</span>
+            </div>
+            <div class="company-card">
+                <div class=company-img-container><img style="width:50%;mix-blend-mode: multiply;"
+                        src="images/Image_Editor copy.png"></div>
+                <strong>Taylor Design</strong>
+                <span>Design Intern</span><span style=color:#666666;>2021</span>
+            </div>
+
+        </div>
+
+        <div class="flexrow">
+            <!-- <div class="">
+                <img src="images/IMG_5327 (2).jpeg">
+            </div> -->
+            <div class="flexrowChild">
+                <h2>Current Hobby Rotation</h2>
+                <div>
+                    <h3>Bike Repair</h3>
+                    <p style="margin-bottom: 0px;">In early August of 2024, my bicycle of 12 years was stolen outside of my apartment. The bike was a gift from my dad for my 12th birthday, and I didn't have any plans to part with it. I had left the bike locked outside with just a cable lock, and the next morning it was gone.</p><p>So there I was, left with a cut cable lock and no bicycle. Luckily, a previous roommate left their old, unused junk bicycle here, and I thought it might be a good opportunity to fix it up.</p><p>I had zero prior experience working on bicycles, and over the course of the next 16 hours I learned how to inspect the bike to see what repairs it needed, how to replace brake cables and housing, how to replace cantilever brakes, how to replace grip shifters, etc.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p style="margin:0">&copy; 2024 Jared Poulsen</p>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            section.scrollIntoView({
+                behavior: 'smooth'
+            });
+
+        }
+
+    </script>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show');
+
+            // Toggle icon classes
+            const menuIcon = document.getElementById('menu-icon');
+            menuIcon.classList.toggle('fa-bars');
+            menuIcon.classList.toggle('fa-xmark');
+            menuIcon.classList.toggle('fa-xl'); // If you want to toggle the size as well
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+    <title>Jared Poulsen | UX/UI Designer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <a href='index.html'>
+                    <h3 style="margin:0">Jared Poulsen 👾</h3>
+                </a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <i id="menu-icon" class="fa-solid fa-bars fa-lg"></i>
+            </div>
+            <ul class="nav-links">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="passion-projects.html">
+                    <li>Passion Projects</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main>
+        <header>
+            <section class="landing-header">
+                <h1>Hi, I'm Jared. I’m a designer and developer aiming to improve our digital world with thoughtful
+                    design.
+                </h1>
+
+                <div class="flexrow-plain" style="width: 100%; overflow-x: auto; white-space: nowrap;">
+                    <div class="company-card">
+                        <div class=company-img-container><img style="width:50%" src="images/mlb-logo-0.png"></div>
+                        <strong>MLB</strong>
+                        <span>UX/UI Designer</span><span style=color:#666666;>2024 - Present</span>
+                    </div>
+                    <div class="company-card">
+                        <div class=company-img-container><img style="width:50%" src="images/Frame 1.png"></div>
+                        <strong>Poulsen Design</strong>
+                        <span>Freelance</span><span style=color:#666666;>2018 - Present</span>
+                    </div>
+                    <div class="company-card">
+                        <div class=company-img-container><img style="width:50%" src="images/2947.png"></div>
+                        <strong>KeyBank</strong>
+                        <span>Product Designer</span><span style=color:#666666;>2022-2023</span>
+                    </div>
+                    <div class="company-card">
+                        <div class=company-img-container><img style="width:50%;mix-blend-mode: multiply;"
+                                src="images/Image_Editor.png"></div>
+                        <strong>Squared Labs</strong>
+                        <span>UX/UI Designer</span><span style=color:#666666;>2021-2022</span>
+                    </div>
+                    <div class="company-card">
+                        <div class=company-img-container><img style="width:50%;mix-blend-mode: multiply;"
+                                src="images/Image_Editor copy.png"></div>
+                        <strong>Taylor Design</strong>
+                        <span>Design Intern</span><span style=color:#666666;>2021</span>
+                    </div>
+
+                </div>
+
+
+
+            </section>
+        </header>
+        <div class="buttons" style="align-self:flex-start">
+            <button onclick="scrollToSection('design')">Design Work</button>
+            <button onclick="scrollToSection('dev')">Dev Work</button>
+        </div>
+        <br>
+        <section id="design" style="margin-bottom: 48px;">
+            <h1 style="margin: 0px 0px 16px 0px;">Design Work</h1>
+            <div class="projects-container">
+                <div class="project">
+                    <a href="mlb.html"><img class="projectImage" src="images/MLB-system.png" alt="Project 1">
+                        <div class="project-info">
+                            <h3>MLB Design System</h3>
+                    </a>
+                    <p>Created the official design system for MLB's Internal Tools product suite to establish consistent
+                        UX practices and save designer + dev time.</p>
+                </div>
+            </div>
+            <div class="project">
+                <a href="wealthmanagement.html"><img class="projectImage"
+                        src="images/64e7e0d7d131c5edd1d5656d_dashboard_homepage_mockup_v1.jpg"
+                        alt="Wealth Management Portal">
+                    <div class="project-info">
+                        <h3>Wealth Management</h3>
+                </a>
+                <p>Designed the bank's latest Wealth Management platform helping financial advisors better monitor
+                    client portfolios.</p>
+            </div>
+            </div>
+            </div>
+            <div class="projects-container">
+                <div class="project">
+                    <a href="lincus.html"><img class="projectImage"
+                            src="images/632f5e15320e0ee3dda551e0_network_screen_updated.webp" alt="Project 1">
+                        <div class="project-info">
+                            <h3>Lincus</h3>
+                    </a>
+                    <p>Giving a 10 year old academic search engine a complete UX and UI overhaul.</p>
+                </div>
+            </div>
+            <div class="project">
+                <a href="refold.html"><img class="projectImage" src="images/refold.jpeg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Refold Design System</h3>
+                </a>
+                <p>Helping a language learning startup scale their online presence with a comprehensive design system.
+                </p>
+            </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="dev">
+            <h1 style="margin: 0px;margin-bottom:16px;">Dev Work</h1>
+            <div class="projects-container">
+                <div class="project">
+                    <img class="projectImage" src="images/642876c78fbcbedad5c6d931_Movie-Roulette.png" alt="Project 1">
+                    <div class="project-info">
+                        <h3>What Movie Should I Watch?</h3>
+                        <p>Solving the age-old movie night queston.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img class="projectImage" src="images/642876c75973975a42988aa9_NASA-POD.png" alt="Project 1">
+                    <div class="project-info">
+                        <h3>NASA Photo of the Day</h3>
+                        <p>Making it easy to access NASA's most awe-inspiring photographs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-container">
+                <div class="project">
+                    <img class="projectImage" src="images/6428793a6251934564471102_Google_homepage_clone.png"
+                        alt="Project 1">
+                    <div class="project-info">
+                        <h3>Google Homepage Clone</h3>
+                        <p>Recreating the iconic Google homepage using HTML and CSS.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img class="projectImage" src="images/Screenshot 2024-09-10 at 4.46.58 PM.png" alt="Project 1">
+                    <div class="project-info">
+                        <h3>This Website!</h3>
+                        <p>Written in HTML, CSS, and JavaScript. Hosted on Github Pages!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+    </main>
+
+    <footer>
+        <p style="margin:0">&copy; 2024 Jared Poulsen</p>
+    </footer>
+
+
+
+    <script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            var nav = document.querySelector('nav');
+            var offset = nav.offsetHeight;
+
+            var targetPosition = section.getBoundingClientRect().top + window.pageYOffset - offset;
+
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        }
+
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show');
+
+            // Toggle icon classes
+            const menuIcon = document.getElementById('menu-icon');
+            menuIcon.classList.toggle('fa-bars');
+            menuIcon.classList.toggle('fa-xmark');
+            menuIcon.classList.toggle('fa-xl');
+
+            // Prevent scrolling when menu is open
+            if (navLinks.classList.contains('show')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = 'auto';
+            }
+        }
+
+        // // Hide/show nav on scroll
+        // var prevScrollpos = window.pageYOffset;
+        // window.onscroll = function () {
+        //     var currentScrollPos = window.pageYOffset;
+        //     var nav = document.querySelector('nav');
+
+        //     if (prevScrollpos > currentScrollPos) {
+        //         nav.classList.remove('nav-hidden');
+        //     } else {
+        //         nav.classList.add('nav-hidden');
+        //     }
+        //     prevScrollpos = currentScrollPos;
+        // }
+    </script>
+</body>
+
+</html>

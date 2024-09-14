@@ -1,0 +1,615 @@
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h2,
+h3,
+h4 {
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin: 4px 0px 32px 0px;
+}
+
+ul {
+    line-height: 1.4;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('fonts/WorkSans-VariableFont_wght.ttf')
+}
+
+
+* {
+    font-family: "WorkSans", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Basic Navbar Styling */
+/* Basic Navbar Styling */
+/* Basic Navbar Styling */
+/* Basic Navbar Styling */
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px 24px 0px;
+    background-color: white;
+    box-sizing: border-box;
+    transition: top 0.5s ease-in-out;
+    /* Add the transition here */
+    z-index: 900;
+}
+
+.nav-container {
+    width: 50%;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Display links horizontally */
+}
+
+.nav-links li {
+    padding: 16px;
+    margin: 0px;
+    background-color: white;
+}
+
+.nav-links a {
+    text-decoration: none;
+
+}
+
+/* Hamburger Menu Styling */
+.hamburger {
+    display: none;
+    /* Hide by default */
+    cursor: pointer;
+    color: white;
+    z-index: 99;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #ff2525;
+}
+
+.fa-solid {
+    display: block;
+}
+
+.fa-bars {
+    display: block;
+    color: #ff2525;
+}
+
+
+.fa-xmark {
+    display: block;
+    color: #ff2525;
+}
+
+#menu-icon {
+    transition: all 0.3s ease-in-out;
+    /* Adjust duration and easing as needed */
+}
+
+/* Basic Navbar Styling */
+/* Basic Navbar Styling */
+/* Basic Navbar Styling */
+/* Basic Navbar Styling */
+
+header {
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.outline {
+    border: 1px solid #dddddd;
+}
+
+.logo img {
+    width: 100px;
+}
+
+
+main {
+    flex-grow: 1;
+    margin-top: 105px;
+    max-width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer {
+    align-self: flex-end;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 24px;
+    background-color: #f2f2f2;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.container1000 {
+    width: 90%;
+    max-width: 90%;
+}
+
+.landing-header {
+    align-items: left;
+    text-align: left;
+    padding: 24px 0 50px 0px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    background-color: #fafafa;
+    color: #666666;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.project-info {
+    margin-top: 16px;
+}
+
+.project p {
+    margin: 0px;
+}
+
+#design {
+    display: flex;
+    flex-direction: column;
+}
+
+#dev {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+}
+
+.projectImage {
+    width: 100%;
+    height: auto;
+}
+
+.flexrow {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+    background-color: #fafafa;
+    padding: 24px 24px 24px 24px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+}
+
+.flexrow-plain {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 24px;
+    box-sizing: border-box;
+}
+
+
+
+.company-card {
+    min-width: 25%;
+    max-width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.company-img-container {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dddddd;
+    margin-bottom: 8px;
+}
+
+
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.w33 {
+    width: 33%;
+    max-width: 33%;
+}
+
+.w40 {
+    width: 40%;
+    max-width: 40%;
+}
+
+.w50 {
+    width: 50%;
+    max-width: 50%;
+}
+
+.w60 {
+    width: 60%;
+    max-width: 60%;
+}
+
+.w100 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.padding16 {
+    padding: 20px;
+}
+
+.margintop24 {
+    margin-top: 24px;
+}
+
+.margintop36 {
+    margin-top: 36px;
+}
+
+.margintop0 {
+    margin-top: 0px;
+}
+
+.margin0 {
+    margin: 0px;
+}
+
+.marginbottom0 {
+    margin-bottom: 0;
+}
+
+.textsmall {
+    font-size: 12px;
+}
+
+.flexrowChild {
+    flex: 1;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.subFlexrow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+    gap: 10px;
+}
+
+.subFlexrow img {
+    flex: 1;
+    max-width: 50%;
+    /* Prevent images from becoming too large */
+    height: auto;
+}
+
+.nav-hidden {
+    top: -105px;
+    /* Adjust this value to match your navbar's height */
+
+}
+
+.iframe-container {
+    height: calc(100vh - 100px);
+    width: 100%;
+
+}
+
+@media (max-width: 1199px) {
+
+
+    body {
+        display: flex;
+    }
+
+    /* Basic Navbar Styling */
+    /* Basic Navbar Styling */
+    /* Basic Navbar Styling */
+    /* Basic Navbar Styling */
+
+    .nav-container {
+        width: 70%;
+        max-width: 70%;
+    }
+
+    /* Basic Navbar Styling */
+    /* Basic Navbar Styling */
+    /* Basic Navbar Styling */
+    /* Basic Navbar Styling */
+    main {
+        max-width: 70%;
+        padding: 0px;
+    }
+
+    .flexrow {
+        flex-wrap: wrap;
+    }
+
+    .container1000 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .flexrowChild {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .flexrowChild {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .subFlexrow {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 100%;
+        gap: 10px;
+    }
+
+    .flexrow {
+        max-width: 100%;
+    }
+
+}
+
+
+
+
+@media (max-width: 767px) {
+
+    h1 {
+        font-size: 32px;
+        margin-top: 0px;
+        margin-bottom: 16px;
+        font-weight: 500;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    h4 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    strong {
+        font-weight: 600;
+    }
+
+    ul {
+        margin: 8px;
+    }
+
+    p {
+        margin-bottom: 16px;
+        line-height: 1.4;
+        ;
+    }
+
+    body {
+        max-width: 100%;
+    }
+
+    main {
+        margin-top: 77px;
+        max-width: 90%;
+        padding: 0px;
+    }
+
+    .flexrow {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .container1000 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .flexrowChild {
+        display: flex;
+        flex: 1 1 100%;
+        width: 100%;
+        max-width: 100%;
+
+    }
+
+    .landing-header {
+        padding-top: 0px;
+    }
+
+
+    .company-card {
+        min-width: 29%;
+        max-width: 29%;
+    }
+
+
+    /* Basic Navbar Styling */
+    /* Basic Navbar Styling */
+    /* Basic Navbar Styling */
+    /* Basic Navbar Styling */
+
+    .hamburger {
+        display: block;
+        /* Show hamburger menu */
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0px 24px 0px;
+    }
+
+    .nav-container {
+        width: 90%;
+        max-width: 90%;
+    }
+
+    .nav-links {
+        display: none;
+        /* Hide navigation links by default */
+        flex-direction: column;
+        /* Stack links vertically */
+        position: absolute;
+        /* Position below navbar */
+        left: 0;
+        width: 100%;
+        padding: 0px 0;
+    }
+
+    .nav-links.show {
+        display: flex;
+        position: fixed;
+        /* Use fixed positioning */
+        top: 77px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* Cover full viewport height */
+        background-image: url("images/000000970017-min\ \(1\).jpg");
+        background-size: cover;
+        background-position-x: center;
+        z-index: 20;
+        /* Ensure it's on top */
+    }
+
+    .nav-links a {
+        color: #ccc;
+    }
+
+    .nav-links li {
+
+        background-color: #000000c8;
+        border-bottom: 1px solid #272727;
+    }
+
+    /* Basic Navbar Styling */
+    /* Basic Navbar Styling */
+    /* Basic Navbar Styling */
+    /* Basic Navbar Styling */
+
+    .projects-container {
+        flex-wrap: wrap;
+    }
+
+    .nav-hidden {
+        top: -77px;
+        /* Adjust this value to match your navbar's height */
+
+    }
+
+}
