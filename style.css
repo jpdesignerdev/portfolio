@@ -531,8 +531,8 @@ li {
 
 
     .company-card {
-        min-width: 41%;
-        max-width: 41%;
+        min-width: unset;
+        max-width: unset;
     }
 
 
